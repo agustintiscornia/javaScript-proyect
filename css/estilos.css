@@ -1,0 +1,181 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box
+}
+
+.header{
+    width: 100%;
+    min-height: 100vh;
+    background-image: url(../multimedia/hotel.jpeg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.logo{
+    height: 120px;
+  }
+
+.nav-item{
+    font-size: 25px;
+    text-transform: capitalize;
+    text-shadow: black 2px 2px;
+}
+
+.nav-item{
+    word-spacing: 0.5em;
+}
+
+/*light/dark mode*/
+body{
+    background-color: ivory !important;
+    color: black;
+    transition: background-color 700ms ease;
+}
+
+.nav ul{
+    list-style: none;
+    
+}
+
+.Darkmode{
+    background-color: black !important;
+    color: ivory;
+}
+.botonlight{
+    margin: 5px;
+}
+.botondark{
+    margin: 5px;
+}
+/*serch-form*/
+
+.cajacontenedoraserch-form{
+    background-color: ivory;
+    margin-top: 230px;
+    height: 90px;
+    border-radius:10px;
+    color:seagreen ;
+}
+
+.check{
+    margin: 5px;
+}
+
+.check-in-out{
+    color: grey;
+}
+.item{
+    margin-top: 25px;
+}
+/*Nosotros*/
+.fondonosotros{
+    height: 100%;
+}
+.titulonosotros{
+    padding: 15px;
+    color:seagreen;
+    
+}
+.cajacontenedoranosotros{
+height: 400px; 
+display: flex;
+flex-direction: row;
+}
+
+.cajacontenedoranosotroshijo{
+    font-size: 20px;
+    padding: 15px;
+    word-spacing: 0.5em;
+    margin-left: 5px;
+    display: inline;
+}
+
+.cajacontenedoranosotroshijo2{
+    height: 320px;
+    margin-right:15px;
+}
+
+/*Alojamientos*/
+.fondoalojamientos{
+    height: 100%;
+}
+
+.tituloalojamientos{
+    padding: 15px;
+    color:seagreen;
+}
+
+ul li{
+    list-style: none;
+}
+.avion{
+    color: white;
+    width: 40px;
+}
+.carritoo{
+    margin-left: 1100px;
+}
+.botonreserva {
+    background-color: seagreen;
+    color: white;
+}
+.card{
+    
+    width: 350px;
+    margin-left: 50px !important;
+    color: black;
+}
+
+
+/*Reserva*/
+.fondoreserva{ 
+    height: 100%;
+}
+
+.tituloreserva{
+    padding: 15px;
+    color:seagreen;
+}
+
+
+.cajacontenedorareserva{
+width: 1000px;
+margin-left: 20px;
+}
+
+.boton1{
+margin: 10px
+}
+
+/*Contacto*/
+.fondocontacto{
+    min-height: 100vh;
+    background-image: url(../multimedia/Camino-Bosque-Pinamar.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.titulocontacto{
+    padding: 15px;
+    color: ivory;
+}
+.textarea{
+    width: 700px;
+    margin-left: 90px;
+}
+
+.box{
+    color: white;
+}
+.boton2{
+    margin-left: 90px;
+}
+.botonn{
+    margin-left: 20px;
+}
+
+/*modal*/
+.modal-content{
+    background-color: ivory;
+}

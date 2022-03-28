@@ -1,0 +1,17 @@
+[
+  {
+    "id": 1,
+    "nombre": "Standard Room",
+    "precio": 1500
+  },
+  {
+    "id": 2,
+    "nombre": "Special Room",
+    "precio": 2000
+  },
+  {
+    "id": 3,
+    "nombre": "Suit Room",
+    "precio": 2500
+  }
+]
